@@ -10,7 +10,7 @@ import apiLogo from './assets/tech_logo/api.jpg'
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
+import cLogo from './assets/tech_logo/c.png'
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import sqlLogo from './assets/tech_logo/sql.png'
 import socketIoLogo from './assets/tech_logo/socketIo.jpg'
@@ -68,6 +68,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'C', logo: cLogo },
       { name: 'Sql', logo: sqlLogo },
     ],
   },
