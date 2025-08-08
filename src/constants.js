@@ -12,6 +12,8 @@ import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import sqlLogo from './assets/tech_logo/sql.png'
+import socketIoLogo from './assets/tech_logo/socketIo.jpg'
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -57,7 +59,8 @@ export const SkillsInfo = [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      {name: 'api', logo: apiLogo}
+      {name: 'Api', logo: apiLogo},
+      {name: 'Socket Io', logo: socketIoLogo}
     ],
   },
   {
@@ -65,6 +68,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Sql', logo: sqlLogo },
     ],
   },
   {
