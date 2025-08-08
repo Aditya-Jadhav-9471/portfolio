@@ -71,7 +71,7 @@ const Experience = () => {
               >
                 {/* Header */}
                 <div className="flex items-center space-x-4">
-                  <div className="w-[76px] h-[56px] bg-white rounded-md overflow-hidden flex-shrink-0">
+                  <div className="w-[76px] h-[76px] bg-white rounded-md overflow-hidden flex-shrink-0">
                     <img
                       src={experience.img}
                       alt={experience.company}

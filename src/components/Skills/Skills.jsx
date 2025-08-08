@@ -63,7 +63,7 @@ const Skills = () => (
               {category.skills.map((skill, i) => (
                 <motion.div
                   key={skill.name}
-                  className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-3 text-center hover:border-[#8245ec] hover:shadow-[0_0_12px_rgba(130,69,236,0.8)] transition-all duration-300"
+                  className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-3 text-center hover:border-[#8245ec] hover:shadow-[0_0_12px_rgba(130,69,236,0.8)] transition-all duration-300 overflow-hidden"
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.4, delay: i * 0.05 }}
@@ -72,7 +72,7 @@ const Skills = () => (
                   <img
                     src={skill.logo}
                     alt={`${skill.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8"
+                    className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                   />
                   <span className="text-xs sm:text-sm text-gray-300">
                     {skill.name}

@@ -24,7 +24,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 
 // Experience Section Logo's
-import imperativeLogo from './assets/company_logo/imperativeLogo.png'
+import imperativeLogo from './assets/company_logo/imperativeLogo.jpg'
+
 
 // Education Section Logo's
 import navsahyadriLogo from './assets/education_logo/navsahyadriLogo.png';
