@@ -35,15 +35,3 @@ This portfolio highlights my technical expertise, work experience, education, an
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed on your machine
-
-### Installation
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/Aditya-Jadhav-9471/portfolio.git
