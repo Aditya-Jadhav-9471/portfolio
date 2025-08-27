@@ -2,6 +2,7 @@
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
+import javaLogo from './assets/tech_logo/java.png'
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
@@ -10,8 +11,8 @@ import apiLogo from './assets/tech_logo/api.jpg'
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-import cLogo from './assets/tech_logo/c.png'
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import postgreSQLLogo from './assets/tech_logo/postgre.png'
 import sqlLogo from './assets/tech_logo/sql.png'
 import socketIoLogo from './assets/tech_logo/socketIo.jpg'
 import typescriptLogo from './assets/tech_logo/typescript.png';
@@ -20,8 +21,6 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 
@@ -45,7 +44,6 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
@@ -59,6 +57,7 @@ export const SkillsInfo = [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'PostgreSQL', logo: postgreSQLLogo },
       {name: 'Api', logo: apiLogo},
       {name: 'Socket Io', logo: socketIoLogo}
     ],
@@ -68,7 +67,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
-      { name: 'C', logo: cLogo },
+      { name: 'Java', logo: javaLogo },
       { name: 'Sql', logo: sqlLogo },
     ],
   },
@@ -81,8 +80,6 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -113,7 +110,7 @@ export const SkillsInfo = [
   export const education = [
 {
   id: 0,
-    img: navsahyadriLogo, // Replace with your actual image import
+    img: navsahyadriLogo, 
     school: "Navsahyadri Group Of Institute, Pune",
     date: "2025 - Present",
     grade: "", // Add if you have it
