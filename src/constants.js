@@ -40,46 +40,58 @@ import chatPlatformImage from "../src/assets/work_logo/chatPlatformImage.png"
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Cloud & DevOps",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-        ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'PostgreSQL', logo: postgreSQLLogo },
-      {name: 'Api', logo: apiLogo},
-      {name: 'Socket Io', logo: socketIoLogo}
+      { name: "AWS" },
+      { name: "Linux" },
+      { name: "Docker" },
+      { name: "CI/CD" },
+      { name: "Git" },
+      { name: "GitHub" },
+      { name: "Bash" },
     ],
   },
+
   {
-    title: 'Languages',
+    title: "Programming",
     skills: [
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Sql', logo: sqlLogo },
+      { name: "Python" },
+      { name: "JavaScript" },
+      { name: "SQL" },
     ],
   },
+
   {
-    title: 'Tools',
+    title: "Development",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
+      { name: "React JS" },
+      { name: "Node JS" },
+      { name: "Express JS" },
+      { name: "REST API" },
+      { name: "Tailwind CSS" },
+    ],
+  },
+
+  {
+    title: "Infrastructure & Networking",
+    skills: [
+      { name: "TCP/IP" },
+      { name: "DNS" },
+      { name: "DHCP" },
+      { name: "HTTP/HTTPS" },
+      { name: "Troubleshooting" },
+      { name: "System Administration" },
+    ],
+  },
+
+  {
+    title: "Tools",
+    skills: [
+      { name: "VS Code" },
+      { name: "Postman" },
+      { name: "MongoDB Compass" },
+      { name: "Vercel" },
+      { name: "CLI" },
     ],
   },
 ];
@@ -88,21 +100,34 @@ export const SkillsInfo = [
     {
       id: 0,
       img: imperativeLogo,
-      role: "MERN Stack Developer -Intern",
+      role: "Software Developer Intern",
       company: "Imperative Business Ventures Limited",
-      date: "April 2025 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      date: "April 2025 - October 2025",
+      desc: "Worked on developing and maintaining web applications while contributing across frontend and backend workflows. Participated in application deployment, hosting, API integration and performance optimization. Gained practical exposure to deployment workflows, version control and production-ready application practices.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+"React JS",
+"Node JS",
+"Express JS",
+"MongoDB",
+"REST API",
+
+"Git",
+"GitHub",
+
+"Deployment",
+"Hosting",
+
+"Linux",
+"Docker",
+
+"CI/CD",
+"Build & Release",
+
+"Vercel",
+
+"API Testing",
+
+"Troubleshooting",
       ],
     },
   ];
@@ -133,9 +158,22 @@ export const projects = [
     id: 0,
     title: "Doctor Appointment Booking System",
     description:
-      "A web-based platform enabling patients to book appointments and doctors to manage schedules with role-based access control. Features include secure authentication, online payments, and an admin dashboard.",
+      "Developed a full-stack appointment management platform with secure authentication, role-based access and online payments. Designed and deployed frontend and backend services while working with hosting, API integration and production-ready application workflows.",
     image: healthMateImage, // Replace with your image
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT", "Razorpay"],
+    tags: ["React JS",
+"Node JS",
+"Express",
+"MongoDB",
+
+"REST API",
+
+"Deployment",
+"Hosting",
+
+"Render",
+"Vercel",
+
+"Git",],
     github: "https://github.com/Aditya-Jadhav-9471/HealthMate", // Replace
     webapp: "https://healthmate-frontend-ksyq.onrender.com/", // Replace
   },
@@ -143,9 +181,27 @@ export const projects = [
     id: 1,
     title: "Real-Time Communication Platform",
     description:
-      "A full-stack chat application supporting both direct and group messaging, built with real-time capabilities using Socket.IO. Features soft delete, authentication, and responsive UI.",
+      "Built a scalable real-time communication platform supporting direct and group messaging. Implemented authentication, WebSocket communication, deployment workflows and responsive application architecture.",
     image: chatPlatformImage, // Replace with your image
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "Socket.IO", "Tailwind CSS", "JWT"],
+    tags: ["React JS",
+
+"Node JS",
+
+"Express",
+
+"MongoDB",
+
+"Socket.IO",
+
+"REST API",
+
+"Deployment",
+
+"Hosting",
+
+"Git",
+
+"Vercel",],
     github: "https://github.com/Aditya-Jadhav-9471/Communication-Platform", // Replace
     webapp: "", // Add when deployed
   },

@@ -8,95 +8,250 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="
+      px-[8vw]
+      md:px-[10vw]
+      lg:px-[18vw]
+      pt-20
+      pb-16
+      min-h-screen
+      flex
+      items-center
+      font-sans
+    "
     >
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10">
-        
-        {/* Left Side */}
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-16 w-full">
+
+        {/* LEFT */}
+
         <motion.div
-          className="md:w-1/2 text-center md:text-left mt-8 md:mt-0"
-          initial={{ opacity: 0, x: -50 }}
+          className="flex-1 text-center lg:text-left"
+          initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
+
           {/* Greeting */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
-            Hi, I am
-          </h1>
 
-          {/* Name */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Aditya Jadhav
-          </h2>
-
-          {/* Skills with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
-                "MERN Stack Developer",
-                "Full Stack Developer",
-                "JavaScript Developer",
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            />
-          </h3>
-
-          {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I craft <span className="text-purple-400 font-medium">modern, scalable web applications </span> 
-            using <span className="text-purple-400 font-medium">React, Next.js, TypeScript</span>, and 
-            <span className="text-purple-400 font-medium"> Node.js</span>, with a focus on 
-            <span className="text-purple-400 font-medium"> clean code</span>, performance, and 
-            <span className="text-purple-400 font-medium"> seamless user experiences</span>.
+          <p className="text-[#8245ec] font-semibold tracking-wider mb-4">
+            HELLO THERE 👋
           </p>
 
-          {/* Resume Button */}
-          <a
-            href="https://drive.google.com/file/d/1iHkekUVFy9d2h5AJGJs0Z0_2HcuTfMjw/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 animate-pulse"
-            style={{
-              background: "linear-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow: "0 0 2px #8245ec, 0 0 8px #8245ec, 0 0 20px #8245ec",
-            }}
+          {/* Name */}
+
+          <h1
+            className="
+            text-5xl
+            sm:text-6xl
+            lg:text-7xl
+            font-black
+            leading-tight
+            text-white
+          "
           >
-            DOWNLOAD RESUME
+            Aditya
+            <br />
+
+            <span
+              className="
+              bg-gradient-to-r
+              from-purple-400
+              to-purple-600
+              bg-clip-text
+              text-transparent
+            "
+            >
+              Jadhav
+            </span>
+          </h1>
+
+          {/* Role */}
+
+          <div className="mt-8 min-h-[70px]">
+
+            <h3
+              className="
+              text-xl
+              sm:text-2xl
+              font-semibold
+              text-gray-300
+            "
+            >
+
+                 <span>Focused on </span>
+
+              <span className="text-[#8245ec]">
+
+               <ReactTypingEffect
+  text={[
+          "Cloud & DevOps",
+          "MERN Stack Development",
+          "AWS & Automation",
+          "Full Stack Development",
+        ]}
+  speed={80}
+  eraseSpeed={40}
+  typingDelay={500}
+  eraseDelay={1800}
+/>
+
+              </span>
+
+            </h3>
+
+          </div>
+
+          {/* About */}
+
+          <p
+            className="
+            mt-8
+            text-gray-400
+            text-lg
+            leading-9
+            max-w-2xl
+          "
+          >
+
+            Moving from
+            <span className="text-white font-medium">
+              {" "}Full Stack Development
+            </span>
+            {" "}toward
+            <span className="text-[#8245ec] font-medium">
+              {" "}Cloud & DevOps
+            </span>
+            .
+
+            Building practical experience with
+            <span className="text-white">
+              {" "}AWS, Linux, Docker, Python,
+              networking and deployment workflows
+            </span>
+            {" "}while leveraging my background in
+            <span className="text-white">
+              {" "}React and Node.js
+            </span>
+            .
+
+          </p>
+
+          {/* Tags */}
+
+          <div className="flex flex-wrap gap-3 mt-8 justify-center lg:justify-start">
+
+            {[
+              "AWS",
+              "Linux",
+              "Docker",
+              "Python",
+              "React",
+              "Automation",
+            ].map((item) => (
+              <span
+                key={item}
+                className="
+                  px-4
+                  py-2
+                  rounded-full
+                  border
+                  border-[#8245ec60]
+                  bg-[#111]
+                  text-gray-300
+                  text-sm
+                "
+              >
+                {item}
+              </span>
+            ))}
+
+          </div>
+
+          {/* Resume */}
+
+          <a
+            href="YOUR_UPDATED_RESUME_LINK"
+            target="_blank"
+            rel="noreferrer"
+            className="
+              inline-flex
+              mt-10
+              px-8
+              py-4
+              rounded-2xl
+              text-white
+              font-semibold
+              bg-gradient-to-r
+              from-[#8245ec]
+              to-[#9b59ff]
+              hover:scale-[1.03]
+              transition
+            "
+          >
+            Download Resume
           </a>
+
         </motion.div>
 
-        {/* Right Side */}
+        {/* RIGHT */}
+
         <motion.div
-          className="md:w-1/2 flex justify-center md:justify-end"
-          initial={{ opacity: 0, x: 50 }}
+          className="flex-1 flex justify-center"
+          initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
+
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full hover:border-purple-400 transition-colors duration-300"
-            tiltMaxAngleX={15}
-            tiltMaxAngleY={15}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
+            tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
+            scale={1.02}
           >
-            <img
-              src={profileImage}
-              alt="Aditya Jadhav"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
-            />
+
+            <div
+              className="
+                relative
+                w-[280px]
+                h-[280px]
+                md:w-[420px]
+                md:h-[420px]
+              "
+            >
+
+              <div
+                className="
+                absolute
+                inset-0
+                rounded-full
+                bg-purple-700
+                blur-[120px]
+                opacity-20
+              "
+              />
+
+              <img
+                src={profileImage}
+                alt="Aditya Jadhav"
+                className="
+                  relative
+                  w-full
+                  h-full
+                  rounded-full
+                  object-cover
+                  border
+                  border-[#8245ec70]
+                  shadow-[0_0_60px_rgba(130,69,236,0.3)]
+                "
+              />
+
+            </div>
+
           </Tilt>
+
         </motion.div>
+
       </div>
     </section>
   );
