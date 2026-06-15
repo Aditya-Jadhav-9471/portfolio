@@ -1,27 +1,4 @@
-// Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import javaLogo from './assets/tech_logo/java.png'
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import apiLogo from './assets/tech_logo/api.jpg'
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import postgreSQLLogo from './assets/tech_logo/postgre.png'
-import sqlLogo from './assets/tech_logo/sql.png'
-import socketIoLogo from './assets/tech_logo/socketIo.jpg'
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
+
 
 
 // Experience Section Logo's
