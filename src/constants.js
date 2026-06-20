@@ -3,6 +3,8 @@
 
 // Experience Section Logo's
 import imperativeLogo from './assets/company_logo/imperativeLogo.jpg'
+import sinewaveLogo from './assets/company_logo/sinewaveLogo.jpg'
+
 
 
 // Education Section Logo's
@@ -107,6 +109,52 @@ export const SkillsInfo = [
 "Troubleshooting",
       ],
     },
+    {
+id: 1,
+
+img: sinewaveLogo,
+
+role: "IT Administrator",
+
+company: "Sinewave Computer Services Pvt Ltd",
+
+date: "Apr 2026 – Present",
+
+desc:
+"Managed day-to-day IT administration and infrastructure support activities. Monitored systems and assisted with server backup and maintenance operations. Performed troubleshooting across networking, hardware, operating systems and applications while providing remote and on-site technical support to maintain business operations and user productivity.",
+
+skills: [
+"System Administration",
+
+"Windows Administration",
+
+"Linux",
+
+"Networking",
+
+"TCP/IP",
+
+"DNS",
+
+"DHCP",
+
+"Hardware Troubleshooting",
+
+"Remote Support",
+
+"Server Backup",
+
+"OS Installation",
+
+"Active Directory",
+
+"Infrastructure Support",
+
+"Ticketing System",
+
+"IT Operations",
+],
+}
   ];
   
   export const education = [
