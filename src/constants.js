@@ -88,73 +88,61 @@ export const SkillsInfo = [
 "Node JS",
 "Express JS",
 "MongoDB",
+"Redis",
 "REST API",
-
 "Git",
 "GitHub",
-
-"Deployment",
-"Hosting",
-
-"Linux",
-"Docker",
-
 "CI/CD",
-"Build & Release",
-
 "Vercel",
-
 "API Testing",
-
-"Troubleshooting",
       ],
     },
-    {
-id: 1,
+//     {
+// id: 1,
 
-img: sinewaveLogo,
+// img: sinewaveLogo,
 
-role: "IT Administrator",
+// role: "IT Administrator",
 
-company: "Sinewave Computer Services Pvt Ltd",
+// company: "Sinewave Computer Services Pvt Ltd",
 
-date: "Apr 2026 – Present",
+// date: "Apr 2026 – Present",
 
-desc:
-"Managed day-to-day IT administration and infrastructure support activities. Monitored systems and assisted with server backup and maintenance operations. Performed troubleshooting across networking, hardware, operating systems and applications while providing remote and on-site technical support to maintain business operations and user productivity.",
+// desc:
+// "Managed day-to-day IT administration and infrastructure support activities. Monitored systems and assisted with server backup and maintenance operations. Performed troubleshooting across networking, hardware, operating systems and applications while providing remote and on-site technical support to maintain business operations and user productivity.",
 
-skills: [
-"System Administration",
+// skills: [
+// "System Administration",
 
-"Windows Administration",
+// "Windows Administration",
 
-"Linux",
+// "Linux",
 
-"Networking",
+// "Networking",
 
-"TCP/IP",
+// "TCP/IP",
 
-"DNS",
+// "DNS",
 
-"DHCP",
+// "DHCP",
 
-"Hardware Troubleshooting",
+// "Hardware Troubleshooting",
 
-"Remote Support",
+// "Remote Support",
 
-"Server Backup",
+// "Server Backup",
 
-"OS Installation",
+// "OS Installation",
 
-"Active Directory",
+// "Active Directory",
 
-"Infrastructure Support",
+// "Infrastructure Support",
 
-"Ticketing System",
+// "Ticketing System",
 
-"IT Operations",
-],
-}
+// "IT Operations",
+// ],
+// }
   ];
   
   export const education = [
