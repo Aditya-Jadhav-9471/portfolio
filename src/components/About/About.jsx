@@ -171,7 +171,7 @@ const About = () => {
           {/* Resume */}
 
           <a
-            href="https://drive.google.com/file/d/1fXZkyNpibfG4cLBH8IckywXtB2sxhot4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iAmodCGY8390lLzpJD7xSGeZoGsM3jTz/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="
