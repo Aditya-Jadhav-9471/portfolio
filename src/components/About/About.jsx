@@ -79,17 +79,17 @@ const About = () => {
             "
             >
 
-                 <span>Focused on </span>
+                 <span>Passionate about </span>
 
               <span className="text-[#8245ec]">
 
                <ReactTypingEffect
   text={[
-          "Cloud & DevOps",
-          "MERN Stack Development",
-          "AWS & Automation",
-          "Full Stack Development",
-        ]}
+ "Full Stack Development",
+    "MERN Stack",
+    "Cloud & DevOps",
+    "AWS & Docker",
+  ]}
   speed={80}
   eraseSpeed={40}
   typingDelay={500}
@@ -104,50 +104,45 @@ const About = () => {
 
           {/* About */}
 
-          <p
-            className="
-            mt-8
-            text-gray-400
-            text-lg
-            leading-9
-            max-w-2xl
-          "
-          >
+<p
+  className="
+    mt-8
+    text-gray-400
+    text-lg
+    leading-9
+    max-w-2xl
+  "
+>
+  Full Stack Developer with hands-on experience in
+  <span className="text-white font-medium">
+    {" "}MERN Stack
+  </span>
+  {" "}development, building responsive web applications and RESTful APIs.
 
-            Moving from
-            <span className="text-white font-medium">
-              {" "}Full Stack Development
-            </span>
-            {" "}toward
-            <span className="text-[#8245ec] font-medium">
-              {" "}Cloud & DevOps
-            </span>
-            .
-
-            Building practical experience with
-            <span className="text-white">
-              {" "}AWS, Linux, Docker, Python,
-              networking and deployment workflows
-            </span>
-            {" "}while leveraging my background in
-            <span className="text-white">
-              {" "}React and Node.js
-            </span>
-            .
-
-          </p>
+  Also experienced with
+  <span className="text-white font-medium">
+    {" "}AWS, Linux, Docker, Git
+  </span>
+  {" "}and passionate about
+  <span className="text-[#8245ec] font-medium">
+    {" "}Cloud & DevOps
+  </span>
+  .
+</p>
 
           {/* Tags */}
 
           <div className="flex flex-wrap gap-3 mt-8 justify-center lg:justify-start">
 
             {[
-              "AWS",
-              "Linux",
-              "Docker",
-              "Python",
               "React",
-              "Automation",
+  "Node.js",
+  "MongoDB",
+  "Express.js",
+  "AWS",
+  "Docker",
+  "Linux",
+  "Git",
             ].map((item) => (
               <span
                 key={item}
